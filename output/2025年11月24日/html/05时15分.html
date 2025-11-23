@@ -1,0 +1,87 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>频率词统计报告</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2 { color: #333; }
+                table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .word { font-weight: bold; }
+                .count { text-align: center; }
+                .percentage { text-align: center; }
+                .titles { max-width: 500px; }
+                .source { color: #666; font-style: italic; }
+                .error { color: #d9534f; }
+                .news-link { 
+                    color: #007bff; 
+                    text-decoration: none; 
+                    border-bottom: 1px dotted #007bff;
+                }
+                .news-link:hover { 
+                    color: #0056b3; 
+                    text-decoration: underline; 
+                }
+                .news-link:visited { 
+                    color: #6f42c1; 
+                }
+                .no-link { 
+                    color: #333; 
+                }
+                .new-title {
+                    background-color: #fff3cd;
+                    border: 1px solid #ffc107;
+                    border-radius: 3px;
+                    padding: 2px 6px;
+                    margin: 2px 0;
+                }
+                .new-section {
+                    background-color: #d1ecf1;
+                    border: 1px solid #bee5eb;
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 10px;
+                }
+                .new-section h3 {
+                    color: #0c5460;
+                    margin-top: 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>频率词统计报告</h1>
+        <p>总标题数: 375</p><p>生成时间: 2025-11-24 05:15:22</p>
+            <table>
+                <tr>
+                    <th>排名</th>
+                    <th>频率词</th>
+                    <th>出现次数</th>
+                    <th>占比</th>
+                    <th>相关标题</th>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="word">金融 经济 GDP 央行 投资</td>
+                    <td class="count">7</td>
+                    <td class="percentage">1.87%</td>
+                    <td class="titles">[华尔街见闻] <a href="https://wallstreetcn.com/articles/3759951" target="_blank" class="news-link">AI投资风向变了！市场现在要求少“画饼”多“变现”</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时15分</font><br>[douyin] <a href="https://www.douyin.com/hot/2315806" target="_blank" class="news-link">中国经济“蓝色动能”加速发力</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 05时15分</font><br>[今日头条] <a href="https://www.toutiao.com/trending/7575865502568812073/" target="_blank" class="news-link">俄央行宣布出售实物黄金意味着什么</a> [10] <font color='grey'>- 05时15分</font><br>[jin10] <a href="https://flash.jin10.com/detail/20251124040352391800" target="_blank" class="news-link">加拿大印度同意启动全面经济伙伴关系协定谈判</a> [12] <font color='grey'>- 05时15分</font><br>[jin10] <a href="https://flash.jin10.com/detail/20251123221708061800" target="_blank" class="news-link">美国财长贝森特：政府停摆给美国GDP造成110亿美元的永久性打击。</a> [21] <font color='grey'>- 05时15分</font><br>[jin10] <a href="https://flash.jin10.com/detail/20251123220953292800" target="_blank" class="news-link">美国财长贝森特：整个经济并未面临衰退风险。</a> [26] <font color='grey'>- 05时15分</font><br>[zaobao] <a href="https://www.zaochenbao.com/news/opinion/202511/2358002.html" target="_blank" class="news-link">评论：台湾据报对美投资4000亿美元换降关税</a> [26] <font color='grey'>- 05时15分</font></td>
+                </tr>
+            
+                <tr>
+                    <td>2</td>
+                    <td class="word">证券 期货 基金 证监会 交易所 股票 A股 上证 深证 衍生品 债权 国债 美股 私募 上市公司 IPO 科创板 创业板</td>
+                    <td class="count">5</td>
+                    <td class="percentage">1.33%</td>
+                    <td class="titles">[财联社热门] <a href="https://www.cls.cn/detail/2208200" target="_blank" class="news-link">周末要闻汇总：美国政府据称正考虑允许英伟达对华出售H200芯片；16只硬科技主题基金同日获批</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 05时15分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2207864" target="_blank" class="news-link">万亿级券商或诞生 本周披露并购重组进展的A股名单一览</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 05时15分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2208046" target="_blank" class="news-link">鸭绒价格两个月上涨约两成 产业链上市公司跟随获益</a> [8] <font color='grey'>- 05时15分</font><br>[财联社热门] <a href="https://www.cls.cn/detail/2208153" target="_blank" class="news-link">大跌之下，766亿资金借ETF“越跌越买”，基金公司火线解读</a> [9] <font color='grey'>- 05时15分</font><br>[zhihu] <a href="https://www.zhihu.com/question/482499515" target="_blank" class="news-link">股票里拉高出货的原理是什么?</a> [14] <font color='grey'>- 05时15分</font></td>
+                </tr>
+            
+            </table>
+        
+        </body>
+        </html>
+        
